@@ -1,0 +1,443 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <title>Courseplus Learning HTML Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Courseplus - Professional Learning Management HTML Template">
+
+    <!-- Favicon -->
+    <link href="..\assets\images\favicon.png" rel="icon" type="image/png">
+
+    <!-- CSS 
+    ================================================== -->
+    <link rel="stylesheet" href="..\assets\css\style.css">
+    <link rel="stylesheet" href="..\assets\css\night-mode.css">
+    <link rel="stylesheet" href="..\assets\css\framework.css">
+
+    <!-- icons
+    ================================================== -->
+    <link rel="stylesheet" href="..\assets\css\icons.css">
+
+ 
+
+    <style>
+        .demo-hero {
+            background: linear-gradient(50deg, #3e416d , #272b44) !important;
+        }
+
+        .demo-card {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: capitalize;
+        }
+
+        .demo-card img {
+            border-radius: 8px;
+            box-shadow: 0px 2px 14px -3px #00000026;
+        }
+
+        .demo-card:hover.demo-card img {
+            transition: 0.4s ease all;
+            transform: translateY(-10px);
+            box-shadow: rgba(34, 48, 102, 0.1) 0px 18px 27.2px -5px;
+        }
+
+        .demo-card p {
+            margin-top: 15px;
+        }
+
+        .demo-card span.new{
+        background: #ff7676;
+        position: absolute;
+        right: -15px;
+        z-index: 1;
+        color: white;
+        padding: 2px 9px;
+        font-size: 15px;
+        box-shadow: 1px 1px 10px -4px black;
+        border-radius: 4px;
+            transition: 0.4s ease all;
+        top: -10px;
+        }
+
+        .demo-card:hover span.new{
+            top: -27px;
+        }
+
+        .my-list {
+            margin: 0;
+            padding: 0;
+        }
+
+        .my-list li {
+            list-style: none;
+            display: inline-block;
+            padding: 8px 23px;
+            background: #f4fff7f0;
+            margin-bottom: 8px;
+            margin-left: 5px;
+            border-radius: 100px;
+        }
+
+        .my-list li:hover {
+            background: #f4fff7;
+            transition: 0.4s ease all;
+            transform: translateY(-2px);
+        }
+
+        .my-list li a {
+            color: #7b7b7b;
+        }
+
+        .my-list li a:hover {
+            color: #132763;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="uk-section uk-text-center demo-hero uk-light">
+        <div class="uk-container mt-sm-5 mb-md-0 my-md">
+            <h1>Default Layout </h1>
+        </div>
+    </div>
+
+    <div class="uk-section" id="demos">
+        <div class="uk-container">
+
+            <div class="uk-child-width-1-3@m uk-child-width-1-2@s uk-flex-center" uk-scrollspy="target: > div; cls: uk-animation-slide-bottom-small; delay: 100" uk-grid="">
+
+                <div>
+                    <a target="_blank" href="dashboard.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\dashboard.png" alt="">
+                            <p>Dashboard </p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="course-path.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\course-path.png" alt="">
+                            <p>course path </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="course-path-level.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\course-path-levels.png" alt="">
+                            <p>course path level </p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div>
+                    <a target="_blank" href="courses.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\course-grid.png" alt="">
+                            <p> courses as grid </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="courses-list.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\courses-list.png" alt="">
+                            <p> courses as list </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="course-intro.html">
+                        <div class="demo-card">
+                            <span class="new">New</span>
+                            <img src="..\assets\images\demos\default\course-introduction.png" alt="">
+                            <p> course intro </p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="course-resume.html">
+                        <div class="demo-card">
+                            <span class="new">New</span>
+                            <img src="..\assets\images\demos\default\course-resume.png" alt="">
+                            <p> course resume</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="course-lesson-1.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\course-lesson-1.png" alt="">
+                            <p> Course lesson 1 </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="course-lesson-2.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\course-lesson-2.png" alt="">
+                            <p> Course lesson 2</p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div>
+                    <a target="_blank" href="course-lesson-3.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\course-lesson-3.png" alt="">
+                            <p> course lesson 3</p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="episode.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\episodes.png" alt="">
+                            <p> episodes </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="episode-details.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\episodes-video.png" alt="">
+                            <p> episode details </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="book.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\book.png" alt="">
+                            <p> Book</p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="book-description.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\book-description.png" alt="">
+                            <p> book desciption </p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div>
+                    <a target="_blank" href="blog-1.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\blog-1.png" alt="">
+                            <p> blog one </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="blog-2.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\blog-2.png" alt="">
+                            <p> blog two </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="blog-card.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\blog-card.png" alt="">
+                            <p> blog card </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="blog-single-1.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\blog-single-1.png" alt="">
+                            <p>blog single 1 </p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div>
+                    <a target="_blank" href="blog-single-2.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\blog-single-2.png" alt="">
+                            <p> blog single 2 </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="user-profile.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\profile.png" alt="">
+                            <p> profile </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="user-profile-edit.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\profile-edit.png" alt="">
+                            <p> profile edit </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="page-pricing.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\page-pricing.png" alt="">
+                            <p> page pricing </p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div>
+                    <a target="_blank" href="page-privecy.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\privecy.png" alt="">
+                            <p> page privecy </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="page-term.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\page-term.png" alt="">
+                            <p> page term</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="page-faq.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\page-faq.png" alt="">
+                            <p> page faq</p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div>
+                    <a target="_blank" href="development-elements.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\development-elements.png" alt="">
+                            <p> elements </p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="development-compounents.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\development-compounents.png" alt="">
+                            <p> compounents </p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="development-icons.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\development-icons.png" alt="">
+                            <p> Icons </p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div>
+                    <a target="_blank" href="page-contact.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\page-maintence.png" alt="">
+                            <p> maintence </p>
+                        </div>
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="specialty-comming-soon.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\page-comming-soon.png" alt="">
+                            <p> comming soon</p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div>
+                    <a target="_blank" href="form-login.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\form-login.png" alt="">
+                            <p> login </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="form-register.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\form-register.png" alt="">
+                            <p> Register </p>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div>
+                    <a target="_blank" href="form-modern-login.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\form-modurn-login.png" alt="">
+                            <p> simple login </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div>
+                    <a target="_blank" href="form-modern-singup.html">
+                        <div class="demo-card">
+                            <img src="..\assets\images\demos\default\form-modurn-login.png" alt="">
+                            <p> simple register </p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- javaScripts
+    ================================================== -->
+    <script src="..\assets\js\framework.js"></script>
+    <script src="..\assets\js\jquery-3.3.1.min.js"></script>
+    <script src="..\assets\js\simplebar.js"></script>
+    <script src="..\assets\js\main.js"></script>
+    <script src="..\assets\js\bootstrap-select.min.js"></script>
+
+
+</body>
+
+</html>
